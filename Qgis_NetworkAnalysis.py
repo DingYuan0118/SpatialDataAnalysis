@@ -1,2 +1,0 @@
-import processing
-processing.run("qgis:shortestpathpointtopoint", { 'DEFAULT_DIRECTION' : 2, 'DEFAULT_SPEED' : 50, 'DIRECTION_FIELD' : '', 'END_POINT' : '-13632755.963284,4539153.902885 [EPSG:3857]', 'INPUT' : 'E:/TaskAndAnswer/QGIS/experiment3/data-shape|layername=sfo_roads', 'OUTPUT' : 'E:/TaskAndAnswer/QGIS/experiment3/result.gpkg', 'SPEED_FIELD' : '', 'START_POINT' : '-13633266.525914,4539887.836666 [EPSG:3857]', 'STRATEGY' : 1, 'TOLERANCE' : 0, 'VALUE_BACKWARD' : '', 'VALUE_BOTH' : '', 'VALUE_FORWARD' : '' })
