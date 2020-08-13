@@ -37,7 +37,7 @@ parse.add_argument("--status_output", help="specify the status path for output f
 arg = parse.parse_args()
 
 start = time.time()
-vectorLayer = QgsVectorLayer('E:/TaskAndAnswer/QGIS/experiment3/data-shape|layername=sfo_roads', 'lines')
+vectorLayer = QgsVectorLayer('./data-shape|layername=sfo_roads', 'lines')
 director = QgsVectorLayerDirector(vectorLayer, -1, '', '', '', QgsVectorLayerDirector.DirectionBoth)
 strategy = QgsNetworkDistanceStrategy()
 director.addStrategy(strategy)
